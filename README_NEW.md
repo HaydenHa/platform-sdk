@@ -211,7 +211,7 @@ Signature | 签名
 code | message
 --- | ---
 1001 | 手机号已占用
-1002 | 邮箱已占用(目前邮箱不是必传项，可不做验证)
+1002 | 邮箱已占用(`目前邮箱不是必传项，可不做验证`)
 1003 | 身份证已占用
 1004 | 用户名已占用
 
@@ -341,7 +341,7 @@ code | message
 	  "bindAt": "datetime, required, 绑定投之家时间",
 	  "bindType": "enum, 0:表示投之家带来的新用户，1:表示平台已有用户",
 	  "assets": {
-	          "awaitAmount": "float, 待收本息",
+	          "awaitAmount": "float, 待收本息", ]:"awaitAmount": "float, 待收金额",改为待收本息和待收本金
 		  "awaitCapital": "float, 待收本金",
 		  "awaitInterest": "float, 待收利息",
 		  "currentAmount": "float, 活期金额",
