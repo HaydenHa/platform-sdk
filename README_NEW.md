@@ -214,10 +214,11 @@ code | message
 1002 | 邮箱已占用(<font color=red>目前邮箱不是必传项，可不做验证</font>)    <!-- 更新 -->
 1003 | 身份证已占用
 1004 | 用户名已占用
+
 ]： 身份证已占用
 ~~身份证已占用~~
 >身份证已占用
-<font color=red>身份证已占用</font>
+- <font color=red>身份证已占用</font>
 >     身份证已占用
 ]:"awaitAmount": "float, 待收本息" 替代
 ]:  \"awaitAmount\"
