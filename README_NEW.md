@@ -2,16 +2,16 @@
 
 **版本号v1.1**
 
-编号 | 更新内容
---- | ---
-1 | 3.4 用户信息查询->Response:<br />· 删除`"awaitAmount": "float, 待收金额"`<br />· 添加`"awaitAmount": "float, 待收本息"`,`"awaitCapital": "float, 待收本金"`
-2 | 3.5标的信息查询->Response:<br />· 添加`"minPeriod": "string, 最短借款期限, 1d, 1m"`,`"maxPeriod": "string, 最长借款期限, 1d, 1m"`
-3 | 3.5标的信息查询->标的类型：<br />· 添加`103 资产包（包含多个散标债权）`
-4 | 3.6 投资记录查询->Response:<br />· 删除`"investAt": "datetime, 投资时间"`<br />· 添加`"investAt": "datetime, 投资时间"`,`"period": "string, 实际投资期限, 1d, 1m"`,`"interestAt": "datetime, 起息时间"`,`"investRate": "float, 投资利率"`
-5 | 3.7 回款记录查询->Response:<br />· 删除`"id": "string, 回款ID，全局唯一"`<br />· 添加`"usernamep": "string, 合作平台用户名"`,`"createTime": "string, 回款计划生成时间"`,`"repayPlan": "array, 回款计划明细"`,`"expectAmount": "float, 预期回款金额(本金)"`,`"expectIncome": "float, 预期回款金额(本金)"`,`"repayDate": "datetime, 实际回款时间"`,`"status": "enum，回款状态，见回款状态表格"`
-6 | 3.7 回款记录查询->回款类型:<br />· 添加`2 提前回款，借款人提前还款`
-7 | 3.7 回款记录查询:<br />· 添加`回款状态`
-8 | 3.8 投之家用户信息查询:<br />整体删除
+编号 | 接口 | 删除内容 | 新增内容
+--- | --- | --- | ---
+1 | 3.4 用户信息查询->Response`"awaitAmount": "float, 待收金额"` | `"awaitAmount": "float, 待收本息"`,<br />`"awaitCapital": "float, 待收本金"`
+2 | 3.5标的信息查询->Response | - | `"minPeriod": "string, 最短借款期限, 1d, 1m"`,<br />`"maxPeriod": "string, 最长借款期限, 1d, 1m"`
+3 | 3.5标的信息查询->标的类型 | - | `103 资产包（包含多个散标债权）`
+4 | 3.6 投资记录查询->Response | `"investAt": "datetime, 投资时间"` | `"investAt": "datetime, 投资时间"`,<br />`"period": "string, 实际投资期限, 1d, 1m"`,<br />`"interestAt": "datetime, 起息时间"`,<br />`"investRate": "float, 投资利率"`
+5 | 3.7 回款记录查询->Response | `"id": "string, 回款ID，全局唯一"` | `"usernamep": "string, 合作平台用户名"`,<br />`"createTime": "string, 回款计划生成时间"`,<br />`"repayPlan": "array, 回款计划明细"`,<br />`"expectAmount": "float, 预期回款金额(本金)"`,<br />`"expectIncome": "float, 预期回款金额(本金)"`,<br />`"repayDate": "datetime, 实际回款时间"`,<br />`"status": "enum，回款状态，见回款状态表格"`
+6 | 3.7 回款记录查询->回款类型 | - | `2 提前回款，借款人提前还款`
+7 | 3.7 回款记录查询 | - | `回款状态`
+8 | 3.8 投之家用户信息查询 | 整体删除 | -
 
 					
 # 1. 概述
