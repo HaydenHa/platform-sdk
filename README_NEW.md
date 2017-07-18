@@ -3,7 +3,7 @@
 **版本号v1.1**
 
 编号 | 接口 | 更新内容 
----- | ---- | -----
+--- | --- | ----
 1 | 3.4 用户信息查询：Response | 新增：<br />"awaitAmount": "float, 待收本息",<br />,"awaitCapital": "float, 待收本金", <br />	"awaitInterest": "float, 待收利息"<br />删除：<br />"awaitAmount": "float, 待收金额"
 2 | 3.5 标的信息查询：Response | 新增：<br />"minPeriod": "string, 最短借款期限, 1d, 1m",<br />"maxPeriod": "string, 最长借款期限, 1d, 1m"
 3 | 3.5 标的信息查询：标的类型 | 新增：<br />103 资产包（包含多个散标债权）
