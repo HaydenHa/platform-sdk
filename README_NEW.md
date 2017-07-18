@@ -4,7 +4,7 @@
 
 编号 | 接口 | 新增内容 | 删除内容 
 --- | --- | --- | ---
-1 | 3.4 用户信息查询：Response | "awaitAmount": "float, 待收本息",<br />"awaitCapital": "float, 待收本金"| "awaitAmount": "float, 待收金额"
+1 | 3.4 用户信息查询：Response | "awaitAmount": "float, 待收本息",<br />"awaitCapital": "float, 待收本金", <br />"awaitInterest": "float, 待收利息",| "awaitAmount": "float, 待收金额"
 2 | 3.5标的信息查询：Response | "minPeriod": "string, 最短借款期限, 1d, 1m",<br />"maxPeriod": "string, 最长借款期限, 1d, 1m" | - 
 3 | 3.5标的信息查询：标的类型 | 103 资产包（包含多个散标债权）| - 
 4 | 3.6 投资记录查询：Response | "investAt": "datetime, 投资时间",<br />"period": "string, 实际投资期限, 1d, 1m",<br />"interestAt": "datetime, 起息时间",<br />"investRate": "float, 投资利率"| "investAt": "datetime, 投资时间"
@@ -12,6 +12,7 @@
 6 | 3.7 回款记录查询：回款类型 | 2 提前回款，借款人提前还款 | - 
 7 | 3.7 回款记录查询 | 回款状态 | - 
 8 | 3.8 投之家用户信息查询 | - | 整体删除
+9 | [点击跳转](#jump) | 
 
 					
 # 1. 概述
@@ -24,6 +25,7 @@
 
 投之家拥有行业内规模最大最专业的网贷平台风控考察团队，累计走访了500多家P2P平台，并对180多家平台从风控、法务、财务、运营、IT等多方面进行严格的实地认证。只有通过风控团队实地认证的平台，才会被投之家收录，确保平台的真实可靠性。
 投之家网贷研究院经过近三年的数据研究和积累，首家推出了网贷安全评级，通过60多个指标，从六个维度全方位展示平台的真实运营情况，让投资风险、收益一目了然，辅助投资人更好地做出投资决策。
+<span id="jump">跳转到的地方</span>
 
 ## 1.2 设计背景
 
