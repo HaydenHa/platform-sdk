@@ -1,5 +1,12 @@
 # 投之家接口文档
 
+版本 | v1.1
+--- | ---
+更新内容 | 1. 3.4用户信息查询->Response:删除"awaitAmount": "float, 待收金额",
+                                     添加"awaitAmount": "float, 待收本息",
+		                        "awaitCapital": "float, 待收本金",
+					
+					
 # 1. 概述
 
 ## 1.1 关于投之家
