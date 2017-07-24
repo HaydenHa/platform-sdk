@@ -576,7 +576,7 @@ status | 说明
 			"expectAmount": "float, 预期回款本金",
 			"income": "float, 回款收益(不包含管理费)",
 			"expectIncome": "float, 预期回款收益",
-			"repayAt": "datetime, 预期回款时间",
+			"expectRepayAt": "datetime, 预期回款时间",
 			"repayDate": "datetime, 实际回款时间",
 			"type": "enum，回款类型，见回款类型表格",
 			"status": "enum，回款状态，见回款状态表格",
